@@ -1,8 +1,8 @@
 package interview.Arrays;
 
-import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 // LeetCode : 3 https://leetcode.com/problems/3sum/
 public class ThreeSum {

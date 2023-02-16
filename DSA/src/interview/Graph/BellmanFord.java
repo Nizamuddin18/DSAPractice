@@ -1,5 +1,4 @@
 package interview.Graph;
-import java.util.*;
 
 public class BellmanFord {
 	public static void printGraph(int src, int dist[], int vertices) {

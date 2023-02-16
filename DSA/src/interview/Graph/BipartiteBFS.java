@@ -4,8 +4,6 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import com.prep.interview.Graph.MColoringProblem.Edge;
-
 public class BipartiteBFS {
 	class Pair{
 		int src;

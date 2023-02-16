@@ -1,5 +1,7 @@
 package interview.BackTracking;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 public class kSubsetPartitions {
 	static int counter = 0;
 	public static void main(String[] args) {

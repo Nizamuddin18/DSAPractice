@@ -1,4 +1,6 @@
-package interview.BinaryTrees;
+package interview.BinaryTrees.View;
+
+import interview.BinaryTrees.Node;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

@@ -1,5 +1,7 @@
 package interview.HashmapHeaps;
-import java.util.*;
+
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.PriorityQueue;
 class NonRepeatingPair implements Comparable<NonRepeatingPair>{
 	char ch;

@@ -1,5 +1,6 @@
 package interview.Foundation.Pattern;
-import java.util.*;
+
+import java.util.Scanner;
 /*
 
 *	*	*	*	*	*	*	

@@ -1,5 +1,8 @@
 package interview.BackTracking;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 public class PermutationsWords1 {
 	
 	/*Current box or Place is on Level;

@@ -1,5 +1,6 @@
 package interview.BinaryTrees;
-import java.util.*;
+
+import java.util.ArrayList;
 public class NodeToRootPath {
 
 	public static void main(String[] args) {
@@ -9,7 +10,7 @@ public class NodeToRootPath {
 		int data = 70;
 		ArrayList<Node> path = ntrp.findNodeToRootPath(root , data);
 		System.out.println("Path : " + path);
-
+		test();
 	}
 	
 	public ArrayList<Node> findNodeToRootPath(Node node , int data){
@@ -32,6 +33,13 @@ public class NodeToRootPath {
 			return rres;
 		}
 		return res;
+	}
+	static void test(){
+		StringBuilder builder = new StringBuilder();
+		builder.append("1->");
+		builder.append("2");
+		String str = builder.toString();
+		System.out.println(str);
 	}
 
 }

@@ -1,5 +1,6 @@
 package interview.BinaryTrees;
-import java.util.*;
+
+import java.util.Scanner;
 /*https://www.geeksforgeeks.org/root-to-leaf-path-sum-equal-to-a-given-number/
 */public class RootToLeafGFG {
 

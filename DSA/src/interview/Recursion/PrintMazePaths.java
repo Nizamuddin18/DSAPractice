@@ -1,5 +1,6 @@
 package interview.Recursion;
-import java.util.*;
+
+import java.util.Scanner;
 public class PrintMazePaths {
 
 	public static void main(String[] args) {

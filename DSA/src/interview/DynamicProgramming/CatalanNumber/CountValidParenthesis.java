@@ -1,5 +1,6 @@
 package interview.DynamicProgramming.CatalanNumber;
-import java.util.*;
+
+import java.util.Scanner;
 public class CountValidParenthesis {
 
 	public static void main (String[] args) {

@@ -1,5 +1,6 @@
 package interview.Arrays;
-import java.util.*;
+
+import java.util.Scanner;
 public class SubsetsOfArray {
 	private static void subsetsOfArray(int arr[] , int n){
 		int noOfSubsets = (int) Math.pow(2, n);

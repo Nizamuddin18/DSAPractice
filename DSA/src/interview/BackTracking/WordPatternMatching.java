@@ -1,5 +1,7 @@
 package interview.BackTracking;
-import java.util.*;
+
+import java.util.HashMap;
+import java.util.HashSet;
 public class WordPatternMatching {
 
 	public static void main(String[] args) {

@@ -1,6 +1,7 @@
 package interview.Foundation.Stacks;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Stack;
 
 class Pair {
 	int data;

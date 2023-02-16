@@ -1,5 +1,7 @@
 package interview.Foundation.Recursion;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 public class GetSubSequence {
 	private static ArrayList<String> getSS(String str){
 		if(str.length() == 0){

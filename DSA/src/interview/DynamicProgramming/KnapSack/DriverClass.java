@@ -1,5 +1,6 @@
 package interview.DynamicProgramming.KnapSack;
-import java.util.*;
+
+import java.util.Scanner;
 public class DriverClass {
 
 	public static void main(String[] args) {

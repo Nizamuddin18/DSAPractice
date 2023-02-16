@@ -1,4 +1,7 @@
-package interview.BinaryTrees;
+package interview.BinaryTrees.Traversal;
+
+import interview.BinaryTrees.ConstructBinaryTree;
+import interview.BinaryTrees.Node;
 
 public class TraversalRecursive {
 

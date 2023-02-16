@@ -1,6 +1,6 @@
 package interview.DynamicProgramming.UnboundedKnapsack;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class DriverClassUnbounded {
 

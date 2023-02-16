@@ -1,5 +1,6 @@
 package interview.Foundation.Stacks;
-import java.util.*;
+
+import java.util.Stack;
 /**
  * 
  * @author asus

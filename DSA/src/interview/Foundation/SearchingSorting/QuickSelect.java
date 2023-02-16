@@ -1,7 +1,5 @@
 package interview.Foundation.SearchingSorting;
 
-import java.util.Arrays;
-
 public class QuickSelect {
 	// quick select main logic where kth smallest no is returned
 	public static int quickSelect(int[] arr, int lo, int hi, int k) {

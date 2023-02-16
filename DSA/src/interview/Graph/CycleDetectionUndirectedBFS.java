@@ -3,8 +3,6 @@ package interview.Graph;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 
-import com.prep.interview.Graph.CycleDetectionUndirectedDFS.Edge;
-
 public class CycleDetectionUndirectedBFS {
 	class Edge{
 		int nbr;

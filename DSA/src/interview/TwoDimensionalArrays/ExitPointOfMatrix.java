@@ -1,5 +1,6 @@
 package interview.TwoDimensionalArrays;
-import java.util.*;
+
+import java.util.Scanner;
 public class ExitPointOfMatrix {
 	private static void exitPointOfBoard(int arr[][]){
 		int i = 0;

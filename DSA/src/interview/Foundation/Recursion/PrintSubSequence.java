@@ -1,6 +1,6 @@
 package interview.Foundation.Recursion;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class PrintSubSequence {
 	public static void printSS(String str, String ans) {

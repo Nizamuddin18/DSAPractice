@@ -1,6 +1,6 @@
 package interview.LinkedList;
 
-import java.util.*;
+import java.util.Scanner;
 public class DetectLoopInLinkedList {
 	class NodeList {
 		int data;

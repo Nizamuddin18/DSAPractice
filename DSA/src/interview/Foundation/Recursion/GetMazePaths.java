@@ -1,6 +1,7 @@
 package interview.Foundation.Recursion;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class GetMazePaths {
 	private static ArrayList<String> getMazePaths(int drow, int dcol, int srow, int scol) {

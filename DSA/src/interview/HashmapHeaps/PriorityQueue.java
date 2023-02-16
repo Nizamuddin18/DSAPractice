@@ -1,6 +1,6 @@
 package interview.HashmapHeaps;
+
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class PriorityQueue {
 	ArrayList<Integer> data;

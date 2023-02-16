@@ -1,7 +1,6 @@
 package interview.Foundation.Stacks;
 
 import java.util.Stack;
-import java.util.Vector;
 
 public class NearestSmallerToLeft {
 	private static void display(int arr[]){

@@ -1,5 +1,6 @@
 package interview.Foundation.Stacks;
-import java.util.*;
+
+import java.util.Stack;
 public class NearestGreaterToLeft {
 	
 	private static void display(int arr[]){

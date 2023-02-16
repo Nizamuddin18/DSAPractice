@@ -1,5 +1,8 @@
 package interview.BackTracking;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 public class PalindromicPermutations {
 
 	public static void main(String[] args) {

@@ -1,5 +1,6 @@
 package interview.DynamicProgramming.Foundation;
-import java.util.*;
+
+import java.util.Scanner;
 public class Solution {
 	private static boolean isSubsequence(String s, String t, int k, int l) {
 		boolean t1[][];

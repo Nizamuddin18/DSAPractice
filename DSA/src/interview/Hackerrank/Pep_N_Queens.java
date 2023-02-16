@@ -1,5 +1,7 @@
 package interview.Hackerrank;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.List;
 public class Pep_N_Queens {
 
 	public static void main(String[] args) {

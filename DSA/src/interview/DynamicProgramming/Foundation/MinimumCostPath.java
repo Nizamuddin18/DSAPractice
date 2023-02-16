@@ -1,5 +1,4 @@
 package interview.DynamicProgramming.Foundation;
-import java.util.*;
 
 public class MinimumCostPath {
 	private static void display(int arr[][]){

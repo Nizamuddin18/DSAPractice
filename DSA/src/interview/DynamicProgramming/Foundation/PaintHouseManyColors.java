@@ -1,5 +1,6 @@
 package interview.DynamicProgramming.Foundation;
-import java.util.*;
+
+import java.util.Scanner;
 public class PaintHouseManyColors {
 
 	public static void main(String[] args) {

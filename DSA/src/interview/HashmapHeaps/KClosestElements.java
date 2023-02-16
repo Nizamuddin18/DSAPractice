@@ -1,8 +1,6 @@
 package interview.HashmapHeaps;
 
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 import java.util.PriorityQueue;
 
 class Pair implements Comparable<Pair> {

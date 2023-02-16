@@ -1,5 +1,6 @@
 package interview.Foundation.Recursion;
-import java.util.*;
+
+import java.util.Scanner;
 public class PrintMazePathWithJumps {
 	public static void printMazePaths(int sr, int sc, int dr, int dc, String psf) {
         if(sr == dr && sc == dc){

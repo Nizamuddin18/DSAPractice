@@ -1,12 +1,6 @@
 package interview.Graph;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 class Edge {
 	int v; // v is the neighbour vertex of the source vertex

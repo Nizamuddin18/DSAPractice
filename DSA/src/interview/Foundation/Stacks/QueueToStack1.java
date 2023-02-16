@@ -2,7 +2,6 @@ package interview.Foundation.Stacks;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
-import java.util.Scanner;
 
 /*Implement Queue to Stack Adapter pop efficient*/
 public class QueueToStack1 {

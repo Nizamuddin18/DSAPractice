@@ -1,6 +1,6 @@
 package interview.DynamicProgramming.Foundation;
 
-import java.util.*;
+import java.util.Arrays;
 
 public class MaximumSumNonAdjacent {
 

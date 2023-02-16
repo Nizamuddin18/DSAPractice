@@ -1,7 +1,5 @@
 package interview.TwoDimensionalArrays;
 
-import java.util.Scanner;
-
 public class TrasnsposeOfMatrix {
 	 static void rotate90Clockwise(int arr[][])
 	    {

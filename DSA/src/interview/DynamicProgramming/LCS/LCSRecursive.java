@@ -1,7 +1,5 @@
 package interview.DynamicProgramming.LCS;
 
-import java.util.*;
-
 public class LCSRecursive {
 
 	public int getLCS(String x, String y, int m, int n) {

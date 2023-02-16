@@ -1,7 +1,5 @@
 package interview.LinkedList;
 
-import com.prep.interview.LinkedList.IntersectionOfTwoSortedLL.Node;
-
 public class CheckCircularLL {
 	class Node {
 		int data;

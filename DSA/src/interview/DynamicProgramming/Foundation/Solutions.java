@@ -1,6 +1,6 @@
 package interview.DynamicProgramming.Foundation;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Solutions {
 	public static void main(String[] args) {

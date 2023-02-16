@@ -1,9 +1,7 @@
 package interview.HashmapHeaps;
 
-import java.util.Collection;
-import java.util.PriorityQueue;
-
 import java.util.Collections;
+import java.util.PriorityQueue;
 
 public class KSmallestElements {
 

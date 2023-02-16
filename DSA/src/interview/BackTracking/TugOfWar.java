@@ -1,5 +1,7 @@
 package interview.BackTracking;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 public class TugOfWar {
 	static int mindiff = Integer.MAX_VALUE;
 	static String ans = "";

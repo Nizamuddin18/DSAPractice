@@ -1,5 +1,7 @@
 package interview.Foundation.Recursion;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 public class PrintPermutations {
 	private static void printPermutations(String ques, String ansf) {
 		if(ques.length() == 0){

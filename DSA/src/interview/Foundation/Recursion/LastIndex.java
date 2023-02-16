@@ -1,6 +1,6 @@
 package interview.Foundation.Recursion;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class LastIndex {
 	public static int lastIndex(int[] arr, int idx, int x) {

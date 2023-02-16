@@ -1,5 +1,7 @@
 package interview.BackTracking;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 public class KSubSetWithEqualSum {
 
 	public static void main(String[] args) {

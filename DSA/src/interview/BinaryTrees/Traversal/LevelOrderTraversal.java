@@ -1,10 +1,9 @@
-package interview.BinaryTrees;
+package interview.BinaryTrees.Traversal;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Queue;
+import interview.BinaryTrees.ConstructBinaryTree;
+import interview.BinaryTrees.Node;
+
+import java.util.*;
 
 public class LevelOrderTraversal {
 
@@ -14,7 +13,6 @@ public class LevelOrderTraversal {
 		System.out.println(" ::::: Level Order Traversal of Tree ::::: " );
 		//levelOrder(root);
 		List<List<Integer>> list = levelOrder2(root);
-		
 		System.out.println(list);
 	}
 	

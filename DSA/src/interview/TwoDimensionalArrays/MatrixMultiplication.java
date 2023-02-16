@@ -1,5 +1,6 @@
 package interview.TwoDimensionalArrays;
-import java.util.*;
+
+import java.util.Scanner;
 public class MatrixMultiplication {
 	private static void matrixMult(int[][] arr1, int[][] arr2,int n1, int m1, int n2, int m2) {
 		int c[][] = new int[arr1.length][arr2[0].length];

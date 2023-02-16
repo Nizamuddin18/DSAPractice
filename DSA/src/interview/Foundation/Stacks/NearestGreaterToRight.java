@@ -1,5 +1,6 @@
 package interview.Foundation.Stacks;
-import java.util.*;
+
+import java.util.Stack;
 public class NearestGreaterToRight {
 	private static void display(int arr[]){
 		for(int i = 0 ; i < arr.length ; i++){
