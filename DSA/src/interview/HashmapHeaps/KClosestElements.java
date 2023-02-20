@@ -1,9 +1,10 @@
 package interview.HashmapHeaps;
 
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
-class Pair implements Comparable<Pair> {
+class Pair {
 	int val;
 	int index;
 
@@ -14,17 +15,6 @@ class Pair implements Comparable<Pair> {
 	}
 
 	public Pair() {
-
-	}
-
-	@Override
-	public int compareTo(Pair p) {
-		if (this.val > p.val)
-			return 1;
-		else if (this.val < p.val)
-			return -1;
-		else
-			return 0;
 	}
 }
 
@@ -46,7 +36,7 @@ public class KClosestElements {
 	}
 
 	private static void kClosestElements(int[] arr, int size, int k, int x) {
-		PriorityQueue<Pair> pq = new PriorityQueue<Pair>(k + 1, Collections.reverseOrder());
+		PriorityQueue<Pair> pq = new PriorityQueue<Pair>(k + 1, Comparator.comparingInt((Pair p) -> p.val).reversed());
 		for (int i = 0; i < size; i++) {
 			pq.add(new Pair(Math.abs(x - arr[i]), arr[i]));
 			if (pq.size() > k)
