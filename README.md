@@ -20,7 +20,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">INTERVIEW PREPARATION</h3>
+  <h3 align="center">INTERVIEW PREPARATION (DSA)</h3>
 
   <p align="center">
     The Project Contains list of important Questions needed for InterviewPreparation!
@@ -100,7 +100,7 @@ C:\Program Files\Java\jre1.8.0_221\bin
 ```
 2. Clone the Repository
 ```sh
-git clone https://github.com/Nizamuddin18/InterviewPreparation.git
+git clone https://github.com/Nizamuddin18/DSAPractice.git
 ```
 
 
@@ -112,22 +112,20 @@ This is a complete Educational Project.Any suggestions are welcome
 
 <!-- ROADMAP -->
 ## Topics
-* [Array](https://github.com/Nizamuddin18/InterviewPreparation/tree/master/InterviewPreparation/src/com/prep/interview/FunctionsAndArrays)
-* [String]
-* [Searching & Sorting](https://github.com/Nizamuddin18/InterviewPreparation/tree/main/InterviewPreparation/src/com/prep/interview/Foundation/SearchingSorting)
-* [Linked List](https://github.com/Nizamuddin18/InterviewPreparation/tree/main/InterviewPreparation/src/com/prep/interview/LinkedList)
-* [Recursion](https://github.com/Nizamuddin18/InterviewPreparation/tree/main/InterviewPreparation/src/com/prep/interview/Foundation/Recursion)
-* [Backtracking](https://github.com/Nizamuddin18/InterviewPreparation/tree/main/InterviewPreparation/src/com/prep/interview/BackTracking)
+* [Array](https://github.com/Nizamuddin18/DSAPractice/tree/master/DSA/src/interview/Arrays)
+* [Sliding Window](https://github.com/Nizamuddin18/DSAPractice/tree/master/DSA/src/interview/Arrays/SlidingWindow)
+* [HashMap](https://github.com/Nizamuddin18/DSAPractice/tree/master/DSA/src/interview/Arrays/HashMap)
+* [Searching & Sorting](https://github.com/Nizamuddin18/DSAPractice/tree/master/DSA/src/interview/Foundation/SearchingSorting)
+* [Linked List](https://github.com/Nizamuddin18/DSAPractice/tree/master/DSA/src/interview/LinkedList)
+* [Recursion](https://github.com/Nizamuddin18/DSAPractice/tree/master/DSA/src/interview/Foundation/Recursion)
+* [Backtracking](https://github.com/Nizamuddin18/DSAPractice/tree/master/DSA/src/interview/BackTracking)
 * [Generic Tree](https://github.com/Nizamuddin18/InterviewPreparation/tree/master/InterviewPreparation/src/com/prep/interview/GenericTrees)
-* [Binary Trees](https://github.com/Nizamuddin18/InterviewPreparation/tree/main/InterviewPreparation/src/com/prep/interview/BinaryTrees)
+* [Binary Trees](https://github.com/Nizamuddin18/DSAPractice/tree/master/DSA/src/interview/BinaryTrees)
 * [Binary Search Trees](https://github.com/Nizamuddin18/InterviewPreparation/tree/master/InterviewPreparation/src/com/prep/interview/BinarySearchTree)
-* [Heaps & HashMaps](https://github.com/Nizamuddin18/InterviewPreparation/tree/main/InterviewPreparation/src/com/prep/interview/HashmapHeaps)
+* [Heaps](https://github.com/Nizamuddin18/DSAPractice/tree/master/DSA/src/interview/HashmapHeaps)
 * [Stacks & Queues](https://github.com/Nizamuddin18/InterviewPreparation/tree/master/InterviewPreparation/src/com/prep/interview/Foundation/Stacks)
-* [Dynamic Programming](https://github.com/Nizamuddin18/InterviewPreparation/tree/main/InterviewPreparation/src/com/prep/interview/DynamicProgramming)
-* [Graphs](https://github.com/Nizamuddin18/InterviewPreparation/tree/main/InterviewPreparation/src/com/prep/interview/Graph)
-* [Greedy]
-* [Bit Manipulation]
-* [Trie]
+* [Dynamic Programming](https://github.com/Nizamuddin18/DSAPractice/tree/master/DSA/src/interview/DynamicProgramming)
+* [Graphs](https://github.com/Nizamuddin18/DSAPractice/tree/master/DSA/src/interview/Graph)
 * [LeetCode Solutions](https://github.com/Nizamuddin18/InterviewPreparation/tree/master/InterviewPreparation/src/com/prep/interview/leetcode)
 
 <!-- CONTRIBUTING -->
