@@ -1,10 +1,10 @@
 package interview.Arrays.SlidingWindow;
 
-public class MaxSubArrayOfSumK {
+public class MaxLengthSubArrayOfSumK {
 
 	public static void main(String[] args) {
-		int nums[] = {4,1,1,1,2,3,5};
-		int target_sum = 5;
+		int nums[] = {1,2,3};
+		int target_sum = 3;
 		int i = 0;
 		int j = 0;
 		int curr_sum = 0;
@@ -26,7 +26,13 @@ public class MaxSubArrayOfSumK {
 				j++;
 			}
 		}
-		System.out.println("Maximum Window Length : " + max_length);
+		System.out.println("::::: Max Length SubArray of Sum K :::::");
+		System.out.print("Input  : ");
+		for(int num : nums)
+			System.out.print(num + " ");
+		System.out.println();
+		System.out.println("target Sum : " + target_sum);
+		System.out.println("Output : " + max_length);
 	}
 
 }
