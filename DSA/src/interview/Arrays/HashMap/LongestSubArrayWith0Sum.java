@@ -1,4 +1,4 @@
-package interview.Arrays;
+package interview.Arrays.HashMap;
 
 import java.util.HashMap;
 

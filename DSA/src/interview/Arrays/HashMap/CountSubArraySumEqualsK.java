@@ -1,4 +1,4 @@
-package interview.Arrays;
+package interview.Arrays.HashMap;
 
 import java.util.HashMap;
 
@@ -20,9 +20,9 @@ public class CountSubArraySumEqualsK {
 			if(map.containsKey(deltasum)){
 				int prev_val = map.get(deltasum);
 				count += prev_val;
-				map.put(deltasum, prev_val+1);
+				map.put(deltasum,  prev_val+1);
 			}else{
-				map.put(deltasum, 1);
+				map.put(sum, 1);
 			}
 		}
 		return count;
@@ -30,10 +30,10 @@ public class CountSubArraySumEqualsK {
 	
 	public static void main(String[] args) {
 		System.out.println("::::: Count Sub Array Sum Equals K :::::");
-		int arr[] = {10, 2, -2, -20, 10};
+		int arr[] = {1, 1, 1};
 		System.out.print("Input : ");
 		display(arr);
-		int k = -10;
+		int k = 2;
 		System.out.println("K : " + k);
 		int count = countSubArraySumEqualsK(arr , k);
 		System.out.println("Output : " + count);

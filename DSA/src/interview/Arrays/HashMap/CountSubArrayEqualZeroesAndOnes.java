@@ -1,4 +1,4 @@
-package interview.Arrays;
+package interview.Arrays.HashMap;
 
 import java.util.HashMap;
 
@@ -36,7 +36,7 @@ public class CountSubArrayEqualZeroesAndOnes {
 
 	public static void main(String[] args) {
 		System.out.println("Count SubArray Equal Zeroes And Ones");
-		int arr[] = { 0, 1, 1, 0, 1, 1 };
+		int arr[] = { 0, 0, 1, 0, 1, 1 };
 		System.out.print("Input : ");
 		display(arr);
 		int count = countSubArrayEqualZeroesAndOnes(arr);
