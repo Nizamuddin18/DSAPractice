@@ -1,6 +1,6 @@
 package interview.Arrays;
 
-public class firstDuplicate {
+public class FirstDuplicate {
 	public static int findFirstDuplicate(int arr[]){
 		int minduplicateVal = Integer.MAX_VALUE;
 		for(int i=0;i<arr.length;i++){
