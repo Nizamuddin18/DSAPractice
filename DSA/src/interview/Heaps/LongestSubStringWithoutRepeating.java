@@ -1,4 +1,4 @@
-package interview.HashmapHeaps;
+package interview.Heaps;
 
 import java.util.HashMap;
 

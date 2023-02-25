@@ -1,4 +1,4 @@
-package interview.HashmapHeaps;
+package interview.Heaps;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,14 +22,18 @@ public class MaxFrequencyCharacter {
 				ch = key;
 			}
 		}
-		return ch;
+		Map.Entry<Character, Integer> maxEntry = map.entrySet().stream()
+				.max(Map.Entry.comparingByValue()).get();
+		return maxEntry.getKey();
+//		return ch;
 	}
 	
 	public static void main(String[] args) {
+		System.out.println("::::: Max Frequency Character :::::");
 		String str = "zmszeqxllzvheqwrofgcuntypejcxovtaqbnqyqlmrwitc";
+		System.out.println("Input   : " + str);
 		char maxFreq = getMaxFrequencyCharacter(str);
-		System.out.println(maxFreq);
-
+		System.out.println("Output  : " + maxFreq);
 	}
 
 }

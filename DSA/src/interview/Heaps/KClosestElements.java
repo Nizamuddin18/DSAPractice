@@ -1,6 +1,5 @@
-package interview.HashmapHeaps;
+package interview.Heaps;
 
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -9,7 +8,6 @@ class Pair {
 	int index;
 
 	public Pair(int val, int index) {
-		super();
 		this.val = val;
 		this.index = index;
 	}
@@ -36,7 +34,9 @@ public class KClosestElements {
 	}
 
 	private static void kClosestElements(int[] arr, int size, int k, int x) {
-		PriorityQueue<Pair> pq = new PriorityQueue<Pair>(k + 1, Comparator.comparingInt((Pair p) -> p.val).reversed());
+		// Create a MAX-HEAP (smaller elements will be at bottom)
+		PriorityQueue<Pair> pq = new PriorityQueue<>
+				(k + 1, Comparator.comparingInt((Pair p) -> p.val).reversed());
 		for (int i = 0; i < size; i++) {
 			pq.add(new Pair(Math.abs(x - arr[i]), arr[i]));
 			if (pq.size() > k)

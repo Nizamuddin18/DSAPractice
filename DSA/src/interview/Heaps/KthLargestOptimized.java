@@ -1,6 +1,6 @@
-package interview.HashmapHeaps;
+package interview.Heaps;
 
-public class KthLargest2 {
+public class KthLargestOptimized {
 	private static int kthLargestElement(int[] arr, int li, int ri, int k) {
 			int p = partition(arr , li, ri);
 			if(p == k-1)
@@ -33,7 +33,7 @@ public class KthLargest2 {
 	public static void main(String[] args) {
 		int arr[] = {6,5,0,2,4,7,8,9};
 		int k = 2;
-		System.out.println("Kth Largest Element : " + kthLargestElement(arr , 0 , arr.length - 1, k));
+		System.out.println("Kth Largest Element(Optimized) : " + kthLargestElement(arr , 0 , arr.length - 1, k));
 
 	}
 

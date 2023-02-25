@@ -1,4 +1,4 @@
-package interview.HashmapHeaps;
+package interview.Heaps;
 import java.util.Collections;
 import java.util.PriorityQueue;
 public class MedianPriority {

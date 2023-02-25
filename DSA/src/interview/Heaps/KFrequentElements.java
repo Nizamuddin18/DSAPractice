@@ -1,4 +1,4 @@
-package interview.HashmapHeaps;
+package interview.Heaps;
 
 import java.util.Comparator;
 import java.util.HashMap;
@@ -32,6 +32,7 @@ public class KFrequentElements {
     }
 
     private int[] findKFrequentElements(int[] arr, int k, int length) {
+        // Put all Elements in HashMap
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (int i = 0; i < length; i++) {
             if (map.containsKey(arr[i])) {
@@ -40,7 +41,10 @@ public class KFrequentElements {
                 map.put(arr[i], 1);
             }
         }
-        PriorityQueue<PairofFrequentElements> pq = new PriorityQueue<PairofFrequentElements>(k + 1, Comparator.comparingInt((PairofFrequentElements p) -> p.frequency));
+        // Create a Min-Heap of size k+1
+        PriorityQueue<PairofFrequentElements> pq = new PriorityQueue<PairofFrequentElements>(k + 1,
+                Comparator.comparingInt((PairofFrequentElements p) -> p.frequency));
+        // Add elements from HashMap to Min-Heap and
         int j = 0;
         for (Integer i : map.keySet()) {
             pq.add(new PairofFrequentElements(i, map.get(i)));

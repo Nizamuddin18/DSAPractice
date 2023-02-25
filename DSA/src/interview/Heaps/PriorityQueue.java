@@ -1,4 +1,4 @@
-package interview.HashmapHeaps;
+package interview.Heaps;
 
 import java.util.ArrayList;
 
@@ -74,21 +74,25 @@ public class PriorityQueue {
 	public static void main(String[] args) {
 		PriorityQueue pq = new PriorityQueue();
 		pq.add(10);
+		System.out.println("ADD : 10");
 		pq.add(20);
+		System.out.println("ADD : 20");
 		pq.add(30);
+		System.out.println("ADD : 30");
 		pq.add(40);
-		System.out.println(pq.peek());
+		System.out.println("ADD : 40");
+		System.out.println("PEEK : " + pq.peek());
 		pq.add(50);
-		System.out.println(pq.peek());
-		System.out.println(pq.remove());
-		System.out.println(pq.peek());
-		System.out.println(pq.remove());
-		System.out.println(pq.peek());
-		System.out.println(pq.remove());
-		System.out.println(pq.peek());
-		System.out.println(pq.remove());
-		System.out.println(pq.peek());
-		
+		System.out.println("ADD : 50");
+		System.out.println("PEEK : " + pq.peek());
+		System.out.println("REMOVE : " + pq.remove());
+		System.out.println("PEEK : " + pq.peek());
+		System.out.println("REMOVE : " + pq.remove());
+		System.out.println("PEEK : " + pq.peek());
+		System.out.println("REMOVE : " + pq.remove());
+		System.out.println("PEEK : " + pq.peek());
+		System.out.println("REMOVE : " + pq.remove());
+		System.out.println("PEEK : " + pq.peek());
 	}
 
 }
