@@ -1,4 +1,4 @@
-package interview.Arrays;
+package interview.Arrays.AdHoc;
 
 import java.util.Scanner;
 public class SubsetsOfArray {

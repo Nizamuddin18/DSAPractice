@@ -1,4 +1,4 @@
-package interview.Arrays;
+package interview.Arrays.AdHoc;
 
 public class MaxRepetitions {
 	private static int findMaxRepetitions(int arr[]){

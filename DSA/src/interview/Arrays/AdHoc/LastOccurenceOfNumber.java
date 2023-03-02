@@ -1,4 +1,4 @@
-package interview.Arrays;
+package interview.Arrays.AdHoc;
 
 public class LastOccurenceOfNumber {
 	public static int findLastOccurence(int arr[] , int low , int high , int data){

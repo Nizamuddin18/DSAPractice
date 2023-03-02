@@ -1,4 +1,4 @@
-package interview.Arrays;
+package interview.Arrays.AdHoc;
 
 import java.util.HashMap;
 // Leetcode 1 : https://leetcode.com/problems/two-sum/

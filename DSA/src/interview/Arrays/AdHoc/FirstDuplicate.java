@@ -1,4 +1,4 @@
-package interview.Arrays;
+package interview.Arrays.AdHoc;
 
 public class FirstDuplicate {
 	public static int findFirstDuplicate(int arr[]){

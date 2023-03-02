@@ -1,7 +1,7 @@
 /**
  * 
  */
-package interview.Arrays;
+package interview.Arrays.AdHoc;
 
 /*
  *Given a sorted array A (sorted in ascending order), having N integers,

@@ -1,4 +1,4 @@
-package interview.Arrays;
+package interview.Arrays.AdHoc;
 
 public class FirstOccurenceOfNumber {
 	public static int findFirstOccurence(int arr[] , int low , int high , int data){
