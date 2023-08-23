@@ -1,9 +1,9 @@
-package interview.Arrays.HashMap;
+package interview.Arrays.HashMap.AcquireAndRelease;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class SmallestSubstringOfAnotherString {
+public class SmallestSubstringOfAllCharactersOfAnotherString {
     public static void main(String[] args) {
         String str1 = "timetopractice";
         String str2 = "toc";
@@ -15,9 +15,10 @@ public class SmallestSubstringOfAnotherString {
     }
 
     private static String getSmallestSubstringOfAStringContainingAllCharactersOfAnotherString(String str1, String str2) {
-        // create a Frequency Map of str2
         Map<Character, Integer> fmap = new HashMap<>();
         Map<Character, Integer> map = new HashMap<>();
+
+        // create a Frequency Map of str2
         for (int i = 0; i < str2.length(); i++) {
             char ch = str2.charAt(i);
             fmap.put(ch, fmap.getOrDefault(ch, 0) + 1);

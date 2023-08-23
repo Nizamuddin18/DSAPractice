@@ -3,14 +3,16 @@ package interview.Arrays.SlidingWindow;
 import java.util.*;
 
 public class MaximumOfAllSubArrayOfSizeK {
-
+    /*
+    * Find the Max in every window of size k and store the max element in an array and return the array
+    * */
 
     public static void main(String[] args) {
         int nums[] = {1,3,-1,-3,5,3,6,7};
         int k = 3;
         List<Integer> ans = getMaxSubArrayOfSizeK(nums, k);
         System.out.println("::::: Maximum Of All SubArray Of Size K :::::");
-        System.out.println("Input  : " + ans);
+        System.out.print("Input  : " );
         for(int num : nums)
             System.out.print(num + " ");
         System.out.println();

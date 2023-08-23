@@ -1,10 +1,10 @@
-package interview.Arrays.HashMap;
+package interview.Arrays.HashMap.AcquireAndRelease;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-public class SmallestSubstringOfUniqueItself {
+public class SmallestSubstringOfUniqueCharactersOfItself {
     public static void main(String[] args) {
         String str = "bbacacdcbbcaadcdca";
         int output = getSmallestSubstringOfAStringContainingAllUniqueCharactersOfItself(str);

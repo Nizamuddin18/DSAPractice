@@ -1,9 +1,9 @@
-package interview.Arrays.HashMap;
+package interview.Arrays.HashMap.AcquireAndRelease;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class CountOfSubStringWithAllUnique {
+public class CountOfSubStringWithAllUniqueCharacters {
 
 	public static void main(String[] args) {
 		String str = "aabc";

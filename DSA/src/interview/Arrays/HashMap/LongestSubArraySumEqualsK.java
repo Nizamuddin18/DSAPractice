@@ -9,26 +9,21 @@ public class LongestSubArraySumEqualsK {
 		System.out.println();
 	}
 
-	public static int longestSubArraySumEqualsK(int[] arr, int k) {
+	public static int longestSubArraySumEqualsK(int[] arr, int target) {
 		HashMap<Integer, Integer> map = new HashMap<>();
-		int i = 0;
 		int sum = 0;
-		int max_length = 0;
-		map.put(0, -1);
-		while (i < arr.length) {
+		int maxLength = Integer.MIN_VALUE;
+		map.put(sum, -1);
+		for (int i = 0; i < arr.length; i++) {
 			sum += arr[i];
-			int deltasum = sum - k;
-			if (map.containsKey(deltasum)) {
-				int prev_index = map.get(deltasum);
-				int length = i - prev_index;
-				max_length = Math.max(max_length, length);
+			if (map.containsKey(sum - target)) {
+				int length = i - map.get(sum - target);
+				maxLength = Math.max(maxLength, length);
 			} else {
 				map.put(sum, i);
 			}
-
-			i++;
 		}
-		return max_length;
+		return maxLength;
 	}
 	
 	public static int longestSubArraySumEqualsKSlidingWindow(int[] arr, int k) {

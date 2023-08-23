@@ -1,5 +1,8 @@
 package interview.Arrays.AdHoc;
 
+import interview.BinarySearch.FirstOccurenceOfNumber;
+import interview.BinarySearch.LastOccurenceOfNumber;
+
 public class TotalElementsInSortedArray {
 
 	public static void main(String[] args) {
@@ -7,7 +10,7 @@ public class TotalElementsInSortedArray {
 		LastOccurenceOfNumber last = new LastOccurenceOfNumber();
 		int arr[] = {3,5,5,5,6,6,7,7,7,9};
 		int data = 7;
-		int firstOccur = first.findFirstOccurence(arr, 0, arr.length-1, data);
+		int firstOccur = first.findFirstOccurrence1(arr, 0, arr.length-1, data);
 		int lastOccur = last.findLastOccurence(arr, 0, arr.length-1, data);
 		int totalElements = lastOccur - firstOccur + 1;
 		System.out.println("Total No of Occurence of " + data + " is " + totalElements);

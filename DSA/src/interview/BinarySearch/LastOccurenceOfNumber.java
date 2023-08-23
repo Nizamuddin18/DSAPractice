@@ -1,4 +1,4 @@
-package interview.Arrays.AdHoc;
+package interview.BinarySearch;
 
 public class LastOccurenceOfNumber {
 	public static int findLastOccurence(int arr[] , int low , int high , int data){

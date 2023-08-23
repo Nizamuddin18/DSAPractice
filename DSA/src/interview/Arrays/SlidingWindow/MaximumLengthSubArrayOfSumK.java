@@ -1,7 +1,9 @@
 package interview.Arrays.SlidingWindow;
 
 public class MaximumLengthSubArrayOfSumK {
-
+	/*
+	 * Find the Maximum Length Sub-Array where sum of the SubArray equals target_sum from the given Input Array
+	 * */
 	public static void main(String[] args) {
 		int nums[] = {1,2,3};
 		int target_sum = 3;
