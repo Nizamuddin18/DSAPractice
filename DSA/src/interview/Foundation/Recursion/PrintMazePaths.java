@@ -1,4 +1,4 @@
-package interview.Foundation.Recursion;
+package interview.Recursion;
 
 import java.util.Scanner;
 public class PrintMazePaths {
