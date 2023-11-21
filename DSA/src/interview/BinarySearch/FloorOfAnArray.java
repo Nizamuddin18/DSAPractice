@@ -4,7 +4,7 @@ public class FloorOfAnArray {
     public static void main(String[] args) {
         // Floor is the Largest Number <= target
         int arr[] = {2, 3, 5, 8, 9, 14, 16, 18};
-        int target = 6;
+        int target = 2;
         int ans = floorOfArray(arr, target);
         System.out.println("Floor of the Array : " + ans);
     }
